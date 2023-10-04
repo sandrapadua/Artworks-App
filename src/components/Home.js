@@ -8,9 +8,9 @@ function Home({ artworks, fetchArtworks }) {
     fetchArtworks();
   }, [fetchArtworks]);
   return (
-    <div>
+    <div >
       <h1>Artworks</h1>
-      <ul>
+      <ul className='main-container'>
         {artworks?.list?.map((artwork) => (
           <li key={artwork.id}>
             <a href={`/artwork/${artwork.id}`}>{artwork.title}</a>
