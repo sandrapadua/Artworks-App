@@ -1,0 +1,100 @@
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  h1 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  /* Home page styles */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0.5rem 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  .main-container {
+    padding: 20px;
+  }
+  
+  /* ArtworkDetail page styles */
+  .detail-container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .detail-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .detail-description {
+    margin-bottom: 1rem;
+  }
+  
+  .detail-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .details-pair {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px; /*  margin for spacing between pairs */
+  }
+  .details-table {
+    padding: 20px;
+  }
+
+.details-title {
+    font-weight: bold;
+    color: #007bff;
+    padding:10px;
+    white-space: nowrap;
+
+  }
+  
+  .details-value {
+    font-weight: normal;
+    color: black; 
+    overflow: hidden;
+    padding: 15px;
+  
+  }
+  
+  .details-value:hover {
+    background-color: #e0e0e0; /* Background color when hovering over long text cells */
+  }
+
+  .back-to-home-link {
+    text-decoration: none; 
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: #fff; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .back-to-home-link:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
