@@ -8,7 +8,7 @@ export const FETCH_ARTWORK_DETAILS_SUCCESS = 'FETCH_ARTWORK_DETAILS_SUCCESS';
 export const fetchArtworks = () => async (dispatch) => {
   try {
     const response = await axios.get(
-      'https://api.artic.edu/api/v1/artworks'
+      'https://corsproxy.io/?https://api.artic.edu/api/v1/artworks'
     );
     dispatch({
       type: FETCH_ARTWORKS_SUCCESS,
@@ -23,7 +23,7 @@ export const fetchArtworks = () => async (dispatch) => {
 export const fetchArtworkDetails = (id) => async (dispatch) => {
   try {
     const response = await axios.get(
-      `https://api.artic.edu/api/v1/artworks/${id}`
+      `https://corsproxy.io/?https://api.artic.edu/api/v1/artworks/${id}`
     );
     dispatch({
       type: FETCH_ARTWORK_DETAILS_SUCCESS,
